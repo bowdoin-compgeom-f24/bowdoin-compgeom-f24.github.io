@@ -1,2 +1,6 @@
 # bowdoin-compgeom-f24.github.io
-csci 3250 Computational Geometry Fall 2024
+
+Computational Geometry (csci 3250) Fall 2024, Bowdoin College 
+
+
+This site is published at https://bowdoin-compgeom-f24.github.io
