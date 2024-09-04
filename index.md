@@ -86,9 +86,9 @@ delays. The link to join Slack is posted on Canvas.
  
 ### Course requirements  and grading policy
 
-- __Projects: 70%__ 
-- __Exams:__ 20%
-- __Class engagement: 10%__
+- Projects: 70%
+- Exams: 20%
+- Class engagement: 10%
 
 
 __Projects:__  We are aiming for 7 projects, due approximately biweekly.
