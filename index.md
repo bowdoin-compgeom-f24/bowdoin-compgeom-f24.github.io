@@ -9,15 +9,11 @@ nav_order: 1
 
 ### Syllabus
 
-__Instructor:__ Laura Toma (she/her)
-
-__Email:__  ltoma at bowdoin.edu
-
-__Office:__ Searles 219 
-
-__Class time:__  MW 1:15-2:40
-
-__Classroom:__  Searles  126 
+- __Instructor:__ Laura Toma (she/her)
+- __Email:__  ltoma at bowdoin.edu
+- __Office:__ Searles 219
+- __Class time:__  MW 1:15-2:40
+- __Classroom:__  Searles  126 
 
 
 ### Prerequisites
