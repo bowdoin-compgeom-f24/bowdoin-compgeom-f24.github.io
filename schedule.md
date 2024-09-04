@@ -12,10 +12,8 @@ nav_order: 2
 
 
 | -------------| ---------------------------------------|------|-----------|
-|    Date     | Topic | Resources |  Project | 
-| Wed Sep 4    | Class intro. Finding collinear points. |   
-                        [collinear.pdf](Lectures/L1-intro/cg-collinear.pdf) ; [ex-collinear.pdf](Lectures/L1-intro/ex-collinear.pdf)  |
-                        [Project 0-setup](Projects/P0-setup.md) | 
+|    __Date__     | __Topic__ | __Resources__ |  __Project__ | 
+| Wed Sep 4    | Class intro. Finding collinear points. |[collinear.pdf](Lectures/L1-intro/cg-collinear.pdf) ; [ex-collinear.pdf](Lectures/L1-intro/ex-collinear.pdf)  | [Project 0-setup](Projects/P0-setup.md) | 
 
 
 
