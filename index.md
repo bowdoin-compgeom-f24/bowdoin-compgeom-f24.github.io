@@ -4,7 +4,7 @@ title: Syllabus
 nav_order: 1
 ---
 
-## Computational Geometry, Fall  2024
+# Computational Geometry, Fall  2024, Bowdoin College 
 
 
 
