@@ -7,7 +7,6 @@ nav_order: 1
 ## Computational Geometry, Fall  2024
 
 
-### Syllabus
 
 - __Instructor:__ Laura Toma (she/her)
 - __Email:__  ltoma at bowdoin.edu
