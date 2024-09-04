@@ -11,25 +11,19 @@ nav_order: 2
 
 
 
-| -------------| ---------------------------------------|------|-----------|
-|    __Date__     | __Topic__ | __Resources__ |  __Project__ | 
-| Wed Sep 4    | Class intro. Finding collinear points. |[collinear.pdf](Lectures/L1-intro/cg-collinear.pdf) ; [ex-collinear.pdf](Lectures/L1-intro/ex-collinear.pdf)  | [Project 0-setup](Projects/P0-setup.md) | 
+|------|----------------------------------|--------|---------|
+|    __Date__ | __Topic__ | __Resources__ |  __Project__ | 
+| Wed Sep 4    | Class intro & survey. Finding collinear points. |[collinear.pdf](Lectures/L1-intro/cg-collinear.pdf) ; [ex-collinear.pdf](Lectures/L1-intro/ex-collinear.pdf)  | [Project 0-setup](Projects/P0-setup.md) | 
 
 
 
 
 
-- __Topics:__ Finding the closest pair of points.
-OpenGL 1.x primer. 
-
-- __Resources:__ 
-
-    - closest pair:   [closest.pdf](Lectures/L2-closest/cg-closestpair.pdf); [ex-closest.pdf](Lectures/L2-closest/ex-closestpair.pdf)
-- __Project__:  [Project 0-setup](Projects/P0-setup.md) 
-
-
-### Week 3:
- OpenGL 1.x primer.   Convex hulls in 2D, properties, algorithms (Gift wrapping, Quickhull, Graham scan, Andrew's monotone chain, incremental) and lower bound. 
+Next: 
+- Finding the closest pair of points.
+- OpenGL 1.x primer
+- arrays and 2d arrays in C primer 
+- Convex hulls in 2D, properties, algorithms (Gift wrapping, Quickhull, Graham scan, Andrew's monotone chain, incremental) and lower bound. 
 
 
 ***
