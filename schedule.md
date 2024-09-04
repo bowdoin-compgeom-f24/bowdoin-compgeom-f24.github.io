@@ -11,19 +11,15 @@ nav_order: 2
 
 
 
-| -------------| ----------------------|-----------------|
-| Wed Sep 4    | Class intro. Finding collinear points. |     |   | 
+| -------------| ---------------------------------------|------|-----------|
+|    Date     | Topic | Resources |  Project | 
+| Wed Sep 4    | Class intro. Finding collinear points. |   
+                        [collinear.pdf](Lectures/L1-intro/cg-collinear.pdf) ; [ex-collinear.pdf](Lectures/L1-intro/ex-collinear.pdf)  |
+                        [Project 0-setup](Projects/P0-setup.md) | 
 
 
 
 
-
-- __Resources:__ 
-    - collinear points:   [collinear.pdf](Lectures/L1-intro/cg-collinear.pdf) ; [ex-collinear.pdf](Lectures/L1-intro/ex-collinear.pdf)
- - __Project__:  [Project 0-setup](Projects/P0-setup.md) 
-
-### Week 2:
-_Sep 9, 11_
 
 - __Topics:__ Finding the closest pair of points.
 OpenGL 1.x primer. 
