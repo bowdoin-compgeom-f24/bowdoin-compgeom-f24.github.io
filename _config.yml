@@ -16,7 +16,7 @@
 # in the templates via {{ site.myvariable }}.
 
 
-title: "Computational Geometry, Fall 2024, Bowdoin College"
+title: "Comp.Geometry, Bowdoin College"
 remote_theme: pmarsceill/just-the-docs
 
 description: Website for  Computational Geometry (csci3250), Fall 2024,  Bowdoin College
