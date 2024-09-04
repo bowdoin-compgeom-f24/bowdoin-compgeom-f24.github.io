@@ -82,19 +82,16 @@ monitor Slack for class updates, including possible cancellations or
 delays. The link to join Slack is posted on Canvas.
 
      
+
  
 ### Course requirements  and grading policy
 
-
-
 - __Projects: 70%__ 
-
 - __Exams:__ 20%
-
 - __Class engagement: 10%__
 
 
-__Projects__  We are aiming for 7 projects, due approximately biweekly.
+__Projects:__  We are aiming for 7 projects, due approximately biweekly.
 
 __Exams:__ There will be two exams, a midterm and a final,
 non-cumulative. Exams will be in class, the first one approximately
@@ -102,12 +99,11 @@ half way through the semester and the second one at the end of the
 semester. Exact dates will be announced later.
 
 
-__Engagement:__ Engagement is crucial for effective learning and as such it
-counts as a significant part of your grade. Note that engagement does not mean having the right answers. It means contributing to the class learning community.
+__Engagement:__ Engagement is crucial for effective learning and as such it counts as a significant part of your grade. Note that engagement does not mean having the right answers. It means contributing to the class learning community.
 
-- What you can do to help the class learning community: attend class, work with your group, consistently and independently engage in discussions during class, volunteer ideas and mak observations, ask questions, work on the whiteboards, offer to write on the whiteboard, draw diagrams and examples, participate on Slack, attend office hours, be respectful and inclusive of your peers, don’t be loud, have a positive attitude, do your best to have a good time and strive to turn in good work.
+- To help engagement: attend class, work with your peers, consistently and independently engage in discussions during class, volunteer ideas and make observations, ask questions, work on the whiteboards, draw diagrams and examples, participate on Slack, attend office hours, be respectful and inclusive of your peers, don’t be loud, have a positive attitude, do your best to have a good time and strive to turn in good work.
 
-- Activities that hinder the class learning community: doing something else in class, working on a different assignment in class, checking your messages, dominating the discussion, not talking at all or talking too much, showing off when you finish a problem fast, not doing your readings and coming unprepared to contribute, etc.
+- Activities that hinder the class learning community: doing something else in class (including working on a different assignment), checking your messages, dominating the discussion, not talking at all or talking too much, showing off when you finish a problem fast, not doing your readings and coming unprepared to contribute.
 
 
 
