@@ -13,7 +13,7 @@ nav_order: 2
 
 |------|----------------------------------|--------|---------|
 |    __Date__ | __Topic__ | __Resources__ |  __Project__ | 
-| Wed Sep 4    | Class intro & survey. Finding collinear points. |[slides.pdf](Lectures/L1-intro/cg-collinear.pdf), [ex.pdf](Lectures/L1-intro/ex-collinear.pdf)  | [Project 0-setup](Projects/P0-setup.md) | 
+| Wed Sep 4    | Class intro & survey. Finding collinear points. |[slides-intro.pdf](Lectures/L1-intro/slides-intro.pdf), [ex.pdf](Lectures/L1-intro/ex-collinear.pdf)  | [Project 0-setup](Projects/P0-setup.md) | 
 
 
 
