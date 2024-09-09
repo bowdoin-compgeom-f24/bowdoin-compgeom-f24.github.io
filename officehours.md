@@ -17,17 +17,17 @@ The weekly schedule will be posted soon.
 
 |              |   Time  (Who & location )  |
 |:-------------|:-------------|:---------------|
-| Sundays      |   
+| Sundays      |   7-9pm | Danielle | 
 | Mondays      |  
-| Tuesdays     |  
-| Wednesdays   |  
+| Tuesdays     |  7-9pm  | Patrick |
+| Wednesdays   |  7-9pm | Kaylie | 
 | Thursdays    |  
 | Fridays      |  
 | Saturdays    |  
 
-Laura's office hours (Searles 219): Tuesdays 1-3pm (geometry students
-have priority) and Wednesdays 3-5pm (algorithms students have
-priority).
+Laura's office hours (Searles 219): 
+- Tuesdays 1-3pm (geometry students have priority)
+- Wednesdays 3-5pm (algorithms students have priority).
 
 For quick questions you can catch me after class. 
 
