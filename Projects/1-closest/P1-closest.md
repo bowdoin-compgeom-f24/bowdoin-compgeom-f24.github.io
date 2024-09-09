@@ -204,7 +204,7 @@ Do not turn in any object  or executable files.
 
 ***
 ### Evaluation
-Here is what we'll be looking for when evaluating this project:  are the two algorithms correct, can they handle arbitrary inputs without crashing,  does the README file include the information that was required; does the code have good style. 
+Here is what we'll be looking for when evaluating this project:  are the two algorithms correctly finding the closest pair;  can they handle arbitrary inputs without crashing;  does the README file include the information that was required and the timings for the two algorithms showing teh difference in performance. And last but not least, does the code have good style. 
 
 Enjoy!
 
