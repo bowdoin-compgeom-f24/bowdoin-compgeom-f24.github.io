@@ -204,9 +204,7 @@ Do not turn in any object  or executable files.
 
 ***
 ### Evaluation
+Here is what we'll be looking for when evaluating this project:  are the two algorithms correct, can they handle arbitrary inputs without crashing,  does the README file include the information that was required; does the code have good style. 
 
+Enjoy!
 
-Your code will be evaluated on the correctness of the two algorithms,
-on the completeness of the README file (whether it includes
-everything it's suppossed to) and on the structure and quality of
-your code.
