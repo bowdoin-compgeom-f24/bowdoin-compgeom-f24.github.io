@@ -4,7 +4,7 @@ title: Syllabus
 nav_order: 1
 ---
 
-## csci 3250: Computational Geometry, Fall  2024, Bowdoin College 
+# csci 3250: Computational Geometry, Fall  2024, Bowdoin College 
 
 
 
