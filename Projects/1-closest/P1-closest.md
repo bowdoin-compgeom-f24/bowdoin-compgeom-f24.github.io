@@ -195,16 +195,17 @@ The README file should contain:
 - a brief, high-level description of how you find the closest pair using the grid
 - a brief decsription of how you chose the grid size and why, and what's the expected running time assuming the points are
 uniformly distributed
-- the table with the experimental running times of your two algorithms, for various values of
-  `n`
+- the table with the experimental running times of your two algorithms, for various values of `n`
 
 
 Do not turn in any object  or executable files.
 
 
 ***
-### Evaluation
-Here is what we'll be looking for when evaluating this project:  are the two algorithms correctly finding the closest pair;  can they handle arbitrary inputs without crashing;  does the README file include the information that was required and the timings for the two algorithms showing teh difference in performance. And last but not least, does the code have good style. 
+### Final  remarks 
+Evaluation: Here is what we'll be looking for when evaluating this project:  are the two algorithms correctly finding the closest pair;  can they handle arbitrary inputs without crashing;  does the README file include the information that was required and the timings for the two algorithms showing the difference in performance. And of course, we'll look at the style of your code. 
 
-Enjoy!
+It is important to start working on this project as soon as assigned, and work on it consistently. This will keep the programming enjoyable, as it should be. A 3000-level class means you work towards being independent and debugging your code independently. Use the internet as much as you can, to answer your questions on how to do things in C/C++, syntax and so on. Write code incrementally, in small pieces at a time, so that you always know where the error is coming from. 
+
+Program well and enjoy!
 
