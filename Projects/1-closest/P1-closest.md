@@ -203,9 +203,9 @@ Do not turn in any object  or executable files.
 
 ***
 ### Final  remarks 
-Evaluation: Here is what we'll be looking for when evaluating this project:  are the two algorithms correctly finding the closest pair;  can they handle arbitrary inputs without crashing;  does the README file include the information that was required and the timings for the two algorithms showing the difference in performance. And of course, we'll look at the style of your code. 
+Evaluation: Here is what we'll be looking for when evaluating this project:  are the two algorithms correctly finding the closest pair;  can they handle arbitrary inputs without crashing;  does the README file include the information that was required and the timings for the two algorithms showing the difference in performance. And of course, the style of your code. 
 
-It is important to start working on this project as soon as assigned, and work on it consistently. This will keep the programming enjoyable, as it should be. A 3000-level class means you work towards being independent and debugging your code independently. Use the internet as much as you can, to answer your questions on how to do things in C/C++, syntax and so on. Write code incrementally, in small pieces at a time, so that you always know where the error is coming from. 
+It is important to start working on this project as soon as assigned, and work on it consistently. This will keep the programming enjoyable, as it should be. A 3000-level class means you work towards being independent and debugging your code independently. Use the internet as much as you can, to answer your questions on how to do things in C/C++, syntax and so on. Write code incrementally, in small pieces at a time, so that you know where the error is coming from. 
 
 Program well and enjoy!
 
