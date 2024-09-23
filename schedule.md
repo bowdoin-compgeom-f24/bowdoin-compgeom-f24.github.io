@@ -25,6 +25,9 @@ nav_order: 2
 
 
 Next: 
+- range queries
+- range trees
+- kd-trees 
 
 
 ***
