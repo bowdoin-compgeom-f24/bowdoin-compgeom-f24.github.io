@@ -21,18 +21,21 @@ set of points in the plane using Graham's scan and come up with a
 couple of testing cases.  
 
 In addition, you will write a brief report to showcase your code,
-containing (1) brief description of what sort of inputs constitute
+containing 
+* (1) brief description of what sort of inputs constitute
 degeneracies for the algorithm and how you handled these degeneracies;
-(2) pictures of the two initializers you created (2) pictures of the
-other initializers you used; (3) pictures of the convex hulls computed
-for each initial configuration of points --- for all these choose a
-reasonable value of n (4) if your code does not work in all cases,
-explain.  (5) any extra features. (6) Time you spent in: Thinking;
-Programming; Testing; Documenting; Total; (7) Brief reflection prompts
+(2) pictures of the two initializers you created
+* (2) pictures of the other initializers you used;
+* (3) pictures of the convex hulls computed for each initial configuration of points --- for all these choose a
+reasonable value of n
+* (4) if your code does not work in all cases, explain.
+* (5) any extra features.
+* (6) Time you spent in: Thinking; Programming; Testing; Documenting; Total.
+* (7) Brief reflection prompts
 (you don’t need to address all): how challenging did you find this
 project? what did you learn by doing this project? What did you wish
 you did differently? If you worked as a team, how did that go? What
-would you like to explore further?)
+would you like to explore further?
 
 
 ### Overview
