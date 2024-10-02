@@ -10,7 +10,7 @@ nav_order: 8
 
 *** 
 * __Assigned:__ Monday, September 23
-* __Due:__ Wedneday,  October 3
+* __Due:__ Wedneday,  October 2
 * Group policy: Partner-optional 
 * Collaboration policy: Level 1
 
