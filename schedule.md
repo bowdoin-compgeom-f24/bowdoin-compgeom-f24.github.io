@@ -19,13 +19,18 @@ nav_order: 2
 
 | Week 3: 9/16, 9/18 | Point left of line primitive. Convex hull: properties and gift wrapping. Lab: OpenGL primer.|   |  | 
 
-| Week 4: 9/23, 9/25 | Convex hull: Graham scan, Quickhull, Incremental, divide-and-conquer and lower bound. | |  [Project 2-hull2d](Projects/2-hull2d/P2-hull2d.md)| 
+| Week 4: 9/23, 9/25 | Convex hull: Graham scan, Quickhull, Incremental, and lower bound. | |  [Project 2-hull2d](Projects/2-hull2d/P2-hull2d.md)| 
+
+| Week 5: 9/30, 10/2 | Convex hull: divide-and-conquer. Range searching and kd-trees. | |  [Project3-mondrian](Projects/3-mondrian/P3-mondrian.md)| 
 
 
 
 
 Next: 
-- Range queries. Range trees and kd-trees. 
+- Range queries with Range trees.
+- segment-segment intersection
+- Point-in-polygon tests and ray crossings.
+- Art gallery problems and Fisk’s sufficiency proof. 
 
 
 ***
