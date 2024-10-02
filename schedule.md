@@ -19,7 +19,7 @@ nav_order: 2
 
 | Week 3: 9/16, 9/18 | Point left of line primitive. Convex hull: properties and gift wrapping. Lab: OpenGL primer.| [leftOf.pdf](Lectures/slides-leftOf.pdf), [hull1.pdf](Lectures/slides-convexHull1.pdf), [ex.pdf](Lectures/ex-giftwrapping.pdf)  |  | 
 
-| Week 4: 9/23, 9/25 | Convex hull: Graham scan, Quickhull, Incremental, and lower bound. | [hull2.pdf](Lectures/slides-convexHull2.pdf), [hull3.pdf](Lectures/slides-convexHull3.pdf), [ex-.pdf](Lectures/ex-graham.pdf) | P2-hull2d| 
+| Week 4: 9/23, 9/25 | Convex hull: Graham scan, Quickhull, Incremental, and lower bound. | [hull2.pdf](Lectures/slides-convexHull2.pdf), [hull3.pdf](Lectures/slides-convexHull3.pdf), [ex.pdf](Lectures/ex-graham.pdf) | P2-hull2d| 
 
 | Week 5: 9/30, 10/2 | Convex hull: divide-and-conquer. Range searching and kd-trees. | | P3-mondrian| 
 
