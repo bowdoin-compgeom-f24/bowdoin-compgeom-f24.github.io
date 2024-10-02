@@ -304,5 +304,8 @@ Please check in the report in the github and message it to me.
 
 ***
 
+### Final remarks
 
-### Start early,  program well and enjoy the proces! 
+Even though no part of the project is difficult, starting late will certainly make it so. Plan accordingly.
+
+### Start early and program well.  
