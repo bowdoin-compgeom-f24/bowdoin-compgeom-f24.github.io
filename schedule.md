@@ -27,10 +27,10 @@ nav_order: 2
 
 
 Next: 
-- Range queries with Range trees.
-- segment-segment intersection
+- Range trees.
+- Segment-segment intersection
 - Point-in-polygon tests and ray crossings.
-- Art gallery problems and Fisk’s sufficiency proof. 
+- Art gallery problems and Fisk’s sufficiency proof
 
 
 ***
