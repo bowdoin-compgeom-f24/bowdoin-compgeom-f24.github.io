@@ -18,7 +18,7 @@ nav_order: 9
 
 
 In this assignment you will write code to build a two-dimensional
-kd-tree for a set of points in the plane, and to render it in
+kd-tree for a set of points in the plane, and render it in
 [Mondrian](https://en.wikipedia.org/wiki/Piet_Mondrian) style.
 
 ![](mondrian.png)
@@ -30,7 +30,7 @@ kd-tree for a set of points in the plane, and to render it in
 
 There are several parts to this asignment: building the kd-tree, 
 rendering it,  and fine-tuning the initial points and colors to make
-it look artistic or interesting. 
+it look artistic/interesting. 
 
 Your program will take as argument on the command line the number of
 points.  For example,  
@@ -75,12 +75,12 @@ typedef struct _treeNode {
 	          /* If this is a leaf node,  p represents the point stored in this leaf. 
                   If this is not a leaf node,  p represents the horizontal or vertical line
                   stored in this node. For a vertical line, p.y is ignored. For a horizontal 
-		  line, p.x is ignored.
+                 line, p.x is ignored.
                   */
 	int type;
-		  / * this can be HORIZONAL, VERTICAL, or LEAF
-                    depending whether the node splits with a horizontal line or  vertical line.
-                    (note: this should be an enum).
+		  / * this can be HORIZONAL, VERTICAL, or LEAF  depending whether the node
+                  splits with a horizontal line or  vertical line.
+                  (note: this should be an enum).
                   */
 	treeNode  *left, *right;
 		/* left/below and right/above children. */
@@ -153,7 +153,7 @@ parameter. In C-style it might look like this:
 kdTree*  build_kdtree(vector<point2d> & points)
 ```
 
-If you create a class, you'd have a constructor that does this: 
+If you create a class, you'll have a constructor that does this: 
 
 ```
   public:
@@ -284,22 +284,20 @@ a brief, high-level description of the project (one paragraph).
 ### Report 
 
 In addition, you will write a brief report to showcase your
-project, containing
+project, containing:
 
-* (1) pictures of your trees with various initializers and values of
-'n'. There isn't a required number of pictures, include what you
-consider a representative sample. 
+* (1) pictures of your trees with various initializers and values of _n_. There isn't a required number of pictures, include what you consider a representative sample. 
 
 * (2) if your code does not work in all cases, explain.
 
 * (3) any extra features.
 
-* (4) Time you spent in: Thinking; Programming; Testing; Documenting; Total;
+* (4) Time you spent in: Thinking; Programming; Testing; Documenting; Total.
 
 * (5) Brief reflection prompts (you don’t need to address all): how
 challenging did you find this project? what did you learn by doing
 this project? What did you wish you did differently? If you worked as
-a team, how did that go? What would you like to explore further?)
+a team, how did that go? What would you like to explore further?
 
 
 Please check in the report in the github and message it to me.
