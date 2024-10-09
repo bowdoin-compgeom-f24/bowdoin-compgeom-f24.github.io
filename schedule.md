@@ -23,6 +23,8 @@ nav_order: 2
 
 | Week 5: 9/30, 10/2 | Convex hull: divide-and-conquer. Range searching and kd-trees. | | P3-mondrian| 
 
+| Week 6:  10/9 | Kd-trees. | | | 
+
 
 
 
