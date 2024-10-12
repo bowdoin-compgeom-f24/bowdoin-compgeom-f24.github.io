@@ -217,8 +217,7 @@ You will receive the assignment on GitHub. Your github repository shoud contain:
 
 * The README file is the landing page for the repository and should
 contain: (1) a one-sentence description of what the code is doing. and
-(2) instrutions on how to run it. Imagine yourself looking at this
-project 10 years from now, the README will come to the rescue. 
+(2) instrutions on how to run it. Totally fine to keep it minimal, but anyone shoud be able to run your code after  looking at your README. 
 
 * A brief report showcasing your project, containing:
 	* (1) images of your guard and visible polygon in various positions.  There isn't a required number of images, include what you consider a representative sample. 
