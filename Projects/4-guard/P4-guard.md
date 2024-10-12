@@ -245,7 +245,7 @@ explore further?
 - render it filled 
 - the guard is moving 
 - the guard is moving and does not get outsid ethe polygon and does not stuck in corners
-- README (minimal) 
+- (minimal) README  
 - report
 - movie 
 - extra: check if the guard entered by the user is inside or outside the polygon 
@@ -260,7 +260,7 @@ explore further?
 
 This project is significantly harder than the previous ones and has
  a few  pieces that you'll have to put together (such as segment
-intersection) while handling degenerate cases. It is crucial that you
+intersection) and work to handle degenerate cases. It is crucial that you
 develop your code one piece at a time, and test before you move on to
 the next.  From the beginning, design your code knowing that you will
 spend 95% of the time debugging it.  Code intentionally to make the
