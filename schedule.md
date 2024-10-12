@@ -20,7 +20,7 @@ nav_order: 2
 | 9/16, 9/18 | Convex hull: properties and gift wrapping. Lab: OpenGL primer.| [hull1.pdf](Lectures/slides-convexHull1.pdf), [ex.pdf](Lectures/ex-giftwrapping.pdf)  |  | 
 |  9/23, 9/25 | Convex hull: Graham scan, Quickhull, Incremental, and lower bound. | [hull2.pdf](Lectures/slides-convexHull2.pdf), [hull3.pdf](Lectures/slides-convexHull3.pdf), [ex.pdf](Lectures/ex-graham.pdf) | P2-hull2d| 
 | 9/30 | Convex hull: divide-and-conquer.  | | P3-mondrian| 
-| 10/2 | Range searching and kd-trees. | | | 
+| 10/2 | Range searching and kd-trees. |[rsearching.pdf](Lectures/slides-range-searching.pdf) | | 
 | 10/7  | _FALL BREAK_ | | | 
 | 10/9 | Kd-trees, searching and analysis | [kdtrees.pdf](Lectures/slides-kdtrees.pdf)| | 
 | 10/14 | Range trees.  Lab: OpenGL | [rangetrees.pdf](Lectures/slides-rangetrees.pdf)| P4-art gallery | 
