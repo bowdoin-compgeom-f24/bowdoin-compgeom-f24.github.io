@@ -244,7 +244,7 @@ explore further?
 - compute the visible polygon
 - render it filled 
 - the guard is moving 
-- the guard is moving and does not get outsid ethe polygon and does not stuck in corners
+- the guard is moving and does not get outside the polygon and does not get stuck in corners
 - (minimal) README  
 - report
 - movie 
