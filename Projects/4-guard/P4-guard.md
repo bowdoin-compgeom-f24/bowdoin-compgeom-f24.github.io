@@ -256,7 +256,7 @@ explore further?
 ### Start early, program well and enjoy the proces!
 
 This project is significantly harder than the previous ones and has
-many pieces that you'll have to put together (such as segment
+ a few  pieces that you'll have to put together (such as segment
 intersection) while handling degenerate cases. It is crucial that you
 develop your code one piece at a time, and test before you move on to
 the next.  From the beginning, design your code knowing that you will
