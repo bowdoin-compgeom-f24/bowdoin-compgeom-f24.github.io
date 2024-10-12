@@ -24,7 +24,7 @@ nav_order: 2
 | Week 5: 9/30, 10/2 | Convex hull: divide-and-conquer. Range searching and kd-trees. | | P3-mondrian| 
 | Week 6:  10/9 | Kd-trees (queries and analysis) | [kdtrees.pdf](Lectures/slides-kdtrees.pdf)| | 
 
-| Week 7:  10/13, 10/15 | Range trees. Segment-segment intersection. Point-in-polygon tests and ray crossings. Lab: OpenGL | [rangetrees.pdf](Lectures/slides-rtrees.pdf)| P4-art gallery | 
+| Week 7:  10/13, 10/15 | Range trees. Segment-segment intersection. Point-in-polygon tests and ray crossings. Lab: OpenGL | [rangetrees.pdf](Lectures/slides-rangetrees.pdf)| P4-art gallery | 
 
 
 
