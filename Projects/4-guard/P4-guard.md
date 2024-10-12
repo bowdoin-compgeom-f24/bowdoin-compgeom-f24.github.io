@@ -244,7 +244,10 @@ explore further?
 - compute the visible polygon
 - render it filled 
 - the guard is moving 
-- the guard is moving and does not get outsid ethe polygon and does not stuck in corners 
+- the guard is moving and does not get outsid ethe polygon and does not stuck in corners
+- README (minimal) 
+- report
+- movie 
 - extra: check if the guard entered by the user is inside or outside the polygon 
 - extra: multiple (moving) guards 
 - extra: improved algorithm 
