@@ -209,9 +209,11 @@ If you try www searching, you may be surprised to find that this is a popular pr
 
 
 
-### What to turn in
+### Deliverables/What to turn in
 
-You will receive the assignment on GitHub. In addition to the code, your repo has to contain the following 3 files: 
+You will receive the assignment on GitHub. Your github repository shoud contain:
+
+* your code 
 
 * The README file is the landing page for the repository and should
 contain: (1) a one-sentence description of what the code is doing. and
