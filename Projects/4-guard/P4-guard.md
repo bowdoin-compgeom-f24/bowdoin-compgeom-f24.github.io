@@ -62,9 +62,10 @@ if it is simple, it should print a message that the test is passed:
 ``` testing if polygon is simple:  passed ``` Otherwise, it should print a
 message that the polygon is not simple and clear the polygon so that
 the use can start again.  This suggest writing aa function to test
-whether two segments intersect, which might look like this: ```
-\\return true if ab intersects with cd bool seg_seg_intersect(point 2d
-a, b, c, d) ```
+whether two segments intersect, which might look like this: 
+```
+\\return true if ab intersects with cd
+bool seg_seg_intersect(point 2d a, b, c, d) ```
  
  
  
@@ -81,13 +82,13 @@ key `h` is pressed).
 
 
 The guard has to be inside the polygon. You can assume that the user
-enters a guard that is inside.  Ideally (extra credit) you will write
+enters a guard that is inside.  You could write
 a function to test whether a point is inside a polygon ---- this is a
-nice basic algorithm to know about and we'll talk about it in
-class. If you want to work on this I  suggest you leave it to the
-end. We'll discuss the basic idea in class, but the degenerate cases
+nice algorithm to know about and we'll talk about it in
+class. If do implement this , it is extra credit, and I  suggest you  do this at the
+end once the otehr pieces are working. We'll discuss the basic idea in class, but the degenerate cases
 are messy; there is full pseudocode in the O'Rourke textbook which I
-suggest you check out and get the full pseudocode from it.
+suggest you check out and implement.
 
 Once the polygon and the guard are set, you will (call your function to)
 compute the visible polygon and (call the function to) render it.
@@ -156,16 +157,16 @@ Then when you want to  do  blending , specify your color with 4 values, like so:
 
 
 
-#### Some  ideas for extra features  and extensions
+### Some  ideas for extra features  and extensions
 
-* Implement testing whether the point is inside the polygon (the ray crossing algorithm). 
+* As mentioned above, implement checking whether the point is inside the polygon (the ray crossing algorithm). 
 
 * Add more than one moving guards, and render their visible areas transparently, so that the overlap is easy to see, like so:   <a href="https://tildesites.bowdoin.edu/~ltoma/teaching/cs3250-CompGeom/fall21/Assignments/A5-artGallery/dylanisaac-guarding-demo.mov">demo1</a> ;   <a href="https://tildesites.bowdoin.edu/~ltoma/teaching/cs3250-CompGeom/fall21/Assignments/A5-artGallery/wk-moving_guards.mov">demo2</a>
 
 ![](guard3.png) 
 
 
-* If you want a challenge, try to come up with an improved algorithm
+* If you are ready for a bigger challenge, you could try to come up with an improved algorithm
 that runs in `O(n lg n)` using a radial sweep (hint: process the
 vertices in radial order around the guard).  Several algorithm are
 known for computing the visible polygon faster than the quadratic
@@ -173,7 +174,7 @@ algorithm: the algorithm by Joe and Simpson runs in `O(n)` time, and
 the one by Asano in `O(n lg n)` time. A recent algorithm by Mungiu et
 al seems to be the fastest in practice.  If you have time and will to
 consider an improved algorithm, that's pretty awesome, but you shoud
-definitely do it only after you get it to work the slower way.  The
+definitely do it only after you get it to work the easier/quadratic way.  The
 papers listed below may be helpful.
 
 
@@ -186,6 +187,9 @@ papers listed below may be helpful.
  * <a href="https://doc.cgal.org/latest/Visibility_2/index.html#Chapter_2D_Visibility_Computation">CGAL
   visibility algorithms</a>
   
+
+### Cool visualizations
+
 If you try www searching, you may be surprised to find that this is a popular problem with cool applications and visualizations. Here's some links which I found interesting/relevant: 
 
 * <a href="http://ncase.me/sight-and-light/">Sight-and-light</a> 
@@ -204,10 +208,9 @@ If you try www searching, you may be surprised to find that this is a popular pr
 
 
 
-### What and how to turn in You will receive the assignment on GitHub,
-but there will be no startup code. To submit, simple push your code
-into your github repository for this assignment. Avoid turning in any
-object or executable files.
+### What and how to turn in
+
+You will receive the assignment on GitHub. In addition to checking in (pushing) your code, you need to: 
 
 * The README file is the landing page for the repository and should
 contain: (1) a one-sentence description of what the code is doing. and
@@ -216,15 +219,15 @@ project 10 years from now, the README will come to the rescue.
 
 * In addition to the README, include a brief report showcasing your project, containing:
 
-* (1) images of your guard and visible polygon in various positions.  There isn't a required number of images, include what you consider a representative sample. 
+	*(1) images of your guard and visible polygon in various positions.  There isn't a required number of images, include what you consider a representative sample. 
 
-* (2) if your code does not work in all cases, explain.
+	* (2) if your code does not work in all cases, explain.
 
-* (3) any extra features you implemented.
+	* (3) any extra features you implemented.
 
-* (4) Time you spent in: Thinking; Programming; Testing; Documenting; Total.
+	* (4) Time you spent in: Thinking; Programming; Testing; Documenting; Total.
 
-* (5) Brief reflection prompts (you don’t need to address all): how
+	* (5) Brief reflection prompts (you don’t need to address all): how
 challenging did you find this project? what are some things you learnt
 by doing this project? Is there anything you wish you did differently?
 If you worked with a partner, how did that go? Is there anything you would like  like to
