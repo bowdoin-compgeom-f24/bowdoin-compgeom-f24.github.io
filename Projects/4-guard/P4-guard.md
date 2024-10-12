@@ -87,7 +87,7 @@ enters a guard that is inside.  You could write
 a function to test whether a point is inside a polygon ---- this is a
 nice algorithm to know about and we'll talk about it in
 class. If do implement this , it is extra credit, and I  suggest you  do this at the
-end once the otehr pieces are working. We'll discuss the basic idea in class, but the degenerate cases
+end once the other pieces are working. We'll discuss the basic idea in class, but the degenerate cases
 are messy; there is full pseudocode in the O'Rourke textbook which I
 suggest you check out and implement.
 
@@ -209,25 +209,20 @@ If you try www searching, you may be surprised to find that this is a popular pr
 
 
 
-### What and how to turn in
+### What to turn in
 
-You will receive the assignment on GitHub. In addition to checking in (pushing) your code, you need to: 
+You will receive the assignment on GitHub. In addition to the code, your repo has to contain the following 3 files: 
 
 * The README file is the landing page for the repository and should
 contain: (1) a one-sentence description of what the code is doing. and
 (2) instrutions on how to run it. Imagine yourself looking at this
 project 10 years from now, the README will come to the rescue. 
 
-* In addition to the README, include a brief report showcasing your project, containing:
-
-	*(1) images of your guard and visible polygon in various positions.  There isn't a required number of images, include what you consider a representative sample. 
-
+* A brief report showcasing your project, containing:
+	* (1) images of your guard and visible polygon in various positions.  There isn't a required number of images, include what you consider a representative sample. 
 	* (2) if your code does not work in all cases, explain.
-
 	* (3) any extra features you implemented.
-
 	* (4) Time you spent in: Thinking; Programming; Testing; Documenting; Total.
-
 	* (5) Brief reflection prompts (you don’t need to address all): how
 challenging did you find this project? what are some things you learnt
 by doing this project? Is there anything you wish you did differently?
