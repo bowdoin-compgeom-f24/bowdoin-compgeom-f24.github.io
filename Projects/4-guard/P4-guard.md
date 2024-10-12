@@ -65,7 +65,8 @@ the use can start again.  This suggest writing aa function to test
 whether two segments intersect, which might look like this: 
 ```
 \\return true if ab intersects with cd
-bool seg_seg_intersect(point 2d a, b, c, d) ```
+bool seg_seg_intersect(point 2d a, b, c, d)
+```
  
  
  
