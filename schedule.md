@@ -24,8 +24,9 @@ nav_order: 2
 | 10/7  | _FALL BREAK_ | | | 
 | 10/9 | Kd-trees, searching and analysis | [kdtrees.pdf](Lectures/slides-kdtrees.pdf)| | 
 | 10/14 | Range trees.  Lab: OpenGL | [rangetrees.pdf](Lectures/slides-rangetrees.pdf)| P4-art gallery | 
-| 10/16 |  Segment-segment intersection. Point-in-polygon tests and ray crossings. | |  | 
-
+| 10/16 |  Range trees, continued. Lab: Using the mouse in OpenGL | |  | 
+| 10/21 |  Segment-segment intersection. Point-in-polygon tests and ray crossings. | |  | 
+| 10/23 | Art gallery problems. Lab: Animations in OpenGL | | | 
 
 
 
