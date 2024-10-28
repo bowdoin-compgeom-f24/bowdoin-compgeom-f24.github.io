@@ -32,13 +32,13 @@ nav_order: 2
 | 11/4 |  | | | 
 | 11/6 |  | | | 
 | 11/11 |  | | | 
-| 11/13 |  | | P5-hull3d due, P6-visgraph| 
+| 11/13 |  | | P6-visgraph| 
 | 11/18 |  | | | 
 | 11/20 |  | | | 
 | 11/25 | THANKSGIVING BREAK! | | | 
 | 11/27 | THANKSGIVING BREAK! | | | 
 | 12/2 |  | | | 
-| 12/4 |  | | P6-visgraph due, P7-planning| 
+| 12/4 |  | | P7-planning| 
 | 12/9 |  | | | 
 | 12/11|  | | | 
 
