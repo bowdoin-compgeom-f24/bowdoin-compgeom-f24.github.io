@@ -27,7 +27,7 @@ nav_order: 2
 | 10/16 |  Range trees, continued. Lab: Using the mouse in OpenGL | |  | 
 | 10/21 |  Segment-segment intersection. Point-in-polygon tests and ray crossings. | |  | 
 | 10/23 | Art gallery problems and Fisk sufficiency proofs. Lab: Animations in OpenGL | [artgallery.pdf](Lectures/slides-artgallery.pdf)| | 
-| 10/28 | Art gallery problems - the proofs. Segment intersection with Bentley-Ottman sweep.  | | | 
+| 10/28 | Art gallery problems - the proofs. Segment intersection with Bentley-Ottman sweep.  |[bentott.pdf](Lectures/slides-bentleyottman.pdf) | | 
 
 
 
