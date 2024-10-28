@@ -28,7 +28,18 @@ nav_order: 2
 | 10/21 |  Segment-segment intersection. Point-in-polygon tests and ray crossings. | |  | 
 | 10/23 | Art gallery problems and Fisk sufficiency proofs. Lab: Animations in OpenGL | [artgallery.pdf](Lectures/slides-artgallery.pdf)| | 
 | 10/28 | Art gallery problems - the proofs. Segment intersection with Bentley-Ottman sweep.  |[bentott.pdf](Lectures/slides-bentleyottman.pdf) | | 
-| 10/30 | Comuting convex hulls in 3d. | | P5-hull3d| 
+| 10/30 | Computing convex hulls in 3d. | | P5-hull3d| 
+| 11/4 |  | | | 
+| 11/6 |  | | | 
+| 11/11 |  | | | 
+| 11/13 |  | | | 
+| 11/18 |  | | | 
+| 11/20 |  | | | 
+Thanksgiving break!
+| 12/2 |  | | | 
+| 11/4 |  | | | 
+| 11/9 |  | | | 
+| 11/11|  | | | 
 
 
 
