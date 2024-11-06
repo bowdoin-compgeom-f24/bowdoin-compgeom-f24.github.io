@@ -148,11 +148,18 @@ void giftwrapping_hull(vector<point3d>& points, vector<triangle3d>& hull) {
 ```
 
 
-### What and how to turn in
-You will receive the assignment on GitHub. To submit, simple push your code into your github repository for this assignment. Do not turn in any object or executable files.
+### Deliverables/What to turn in
 
-Add a README file containing:  a brief, description of the project;  info on the interface, i.e. everything one  needs to  know in order to run your code; a list of known bugs (if any) and when they happen;  a list of the main functions you implemented (); any extra features you implemented. 
+You will receive the assignment on GitHub. Your github repository shoud contain:
+- your code
+- The README file is the landing page for the repository and should contain: (1) a one-sentence description of what the code is doing. and (2) instrutions on how to run it. Totally fine to keep it minimal, but anyone shoud be able to run your code after looking at your README.
+- A brief report showcasing your project, containing:
+	- (1) images of your hulls. There isn’t a required number of images, include what you consider a representative sample
+	- (2) if your code does not work in all cases, explain.
+	- (3) any extra features you implemented.
+	- (4) Time you spent in: Thinking; Programming; Testing; Documenting; Total.
+	- (5) Brief reflection prompts (you don’t need to address all): how challenging did you find this project? what are some things you learnt by doing this project? Is there anything you wish you did differently? If you worked with a partner, how did that go? Is there anything you would like like to explore further?
+	- (6) Capture a movie of the screen while you demo your code and upload it to github as demo.mov. To demo, no voice, just run your code and show what it can do (To capture a movie on a Mac press shift+command+5 and then choose the option that says record selected portion).
 
-Also: Capture a movie of the screen while you demo your code and upload it to github, either in #general or a a direct message.  To demo, no voice, just run your code and show what it can do (To capture a movie  on a Mac press `shift+command+5` and then choose the option that says `record selected portion`). 
 
 
