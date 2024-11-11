@@ -31,7 +31,7 @@ nav_order: 2
 | 10/30 | Computing convex hulls in 3d. | | P5-hull3d| 
 | 11/4 | Lab: OpenGL hull3d startup. Hull3d naive algorithm.  | | | 
 | 11/6 |  Hull3d: gift wrapping algorithm.| | | 
-| 11/11 | Hull3d: incremental algorithm. | | | 
+| 11/11 | Hull3d: incremental algorithm and divide-and-conquer.  | | | 
 | 11/13 |  | | P6-visgraph| 
 | 11/18 |  | | | 
 | 11/20 |  | | | 
