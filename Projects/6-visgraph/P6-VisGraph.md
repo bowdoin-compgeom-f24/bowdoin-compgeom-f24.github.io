@@ -11,7 +11,7 @@ nav_order: 12
 
 *** 
 * __Assigned:__ Suday, November 17
-* __Due:__    
+* __Due:__  as soon as you can after the break
 * Group policy: Partner-optional 
 * Collaboration policy: Level 1
  
@@ -62,8 +62,8 @@ robot can move).  The representation is called a roadmap and is
 essentially a graph of free space. Ideally we want to build the
 roadmap so that:
 
-    1. Any path in the road map corresponds to a collision-free path in the free space.
-    2. Any path in the free-space corresponds to a path in the road map.
+1. Any path in the road map corresponds to a collision-free path in the free space.
+2. Any path in the free-space corresponds to a path in the road map.
 
 If we are able to compute a road map of free space with these
 properties, then to move from a location s to a location t, we will find a path in the road map
@@ -71,7 +71,6 @@ from s to t. We know that any path in the road map is colision-free
 (by (1)), and we know that if a path in the road map does not exist,
 then no path exists (by (2)). Essentially we have reduced the motion
 planning problem to a path problem in a graph.
-
 
 There are several types of roadpams that have been used, depending on
 the specifics of the problem.  For a point robot moving among
