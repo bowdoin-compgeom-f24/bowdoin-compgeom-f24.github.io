@@ -57,7 +57,7 @@ allow us to do optimal planning:
 
 
 The general idea of motion planning is to construct a representation
-of the free space (the space where there are no obstacles and the
+of the free space (the space free of obstacles where 
 robot can move).  The representation is called a roadmap and is
 essentially a graph of free space. Ideally we want to build the
 roadmap so that:
