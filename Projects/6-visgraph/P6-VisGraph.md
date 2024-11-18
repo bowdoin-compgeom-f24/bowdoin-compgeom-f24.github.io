@@ -81,7 +81,10 @@ obstacles, and its edges (u,v) are all the pair of vertices that can
 "see" each other, that is, segment uv does not intersect the interior
 of any obstacle. Some screenshots above and below.
 
-![](vg1.png) 
+![](vg10.png) 
+![](vg11.png) 
+![](vg12.png) 
+![](vg13.png) 
 
 Shortest paths in 2D have the very nice and convenient property that
 they are straight lines, and they have to go through the vertices of
@@ -109,7 +112,7 @@ line width). Let the user enter different start and end positions and re-compute
 
 
 All the geometric primitives that you'll need for this project, you 
-already have them.  So that part should feel easier. The new part
+already have them.  So that part should feel easy. The new part
 is implementing Dijsktra's algorithm. In csci2200 we discussed the
 pseudocode for Dijkstra. In this project you have an opportunity to
 work through  the details.
@@ -117,10 +120,8 @@ work through  the details.
 
 ### Dijkstra's algorithm 
 
-In theory we always assume that the graph is given nicely in an
-adjacency list form.  Here you have a bunch of edges, and
-you will need to  create an adjacency list for the VG graph.
-
+In theory we always assume that the graph is given  in an
+adjacency list form.  Here you compute all the edges, and you will need to  create an adjacency list for the VG graph.
 
 Once you have an adjacency list, you can pretty much use Dijkstra's algorithm straight out of a textbook.
 
