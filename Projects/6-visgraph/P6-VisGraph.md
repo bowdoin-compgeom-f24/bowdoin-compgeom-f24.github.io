@@ -81,10 +81,7 @@ obstacles, and its edges (u,v) are all the pair of vertices that can
 "see" each other, that is, segment uv does not intersect the interior
 of any obstacle. Some screenshots above and below.
 
-![](vg10.png) 
-![](vg11.png) 
-![](vg12.png) 
-![](vg13.png) 
+![](vg10.png) ![](vg11.png) ![](vg12.png) ![](vg13.png) 
 
 Shortest paths in 2D have the very nice and convenient property that
 they are straight lines, and they have to go through the vertices of
