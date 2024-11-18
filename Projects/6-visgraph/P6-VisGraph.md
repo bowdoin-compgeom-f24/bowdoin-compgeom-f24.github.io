@@ -59,17 +59,17 @@ allow us to do optimal planning:
 The general idea of motion planning is to construct a representation
 of the free space (the space free of obstacles where 
 robot can move).  The representation is called a roadmap and is
-essentially a graph of free space. Ideally we want to build the
+essentially a graph representing the free space. Ideally we want to build a
 roadmap so that:
 
 1. Any path in the road map corresponds to a collision-free path in the free space.
 2. Any path in the free-space corresponds to a path in the road map.
 
 If we are able to compute a road map of free space with these
-properties, then to move from a location s to a location t, we will find a path in the road map
+properties, then moving  from a location s to a location t is corresponds to finding a path in the road map
 from s to t. We know that any path in the road map is colision-free
-(by (1)), and we know that if a path in the road map does not exist,
-then no path exists (by (2)). Essentially we have reduced the motion
+by (1), and we know that if a path in the road map does not exist,
+then no path exists by (2). Essentially we have reduced the motion
 planning problem to a path problem in a graph.
 
 There are several types of roadpams that have been used, depending on
