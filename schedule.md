@@ -32,7 +32,7 @@ nav_order: 2
 | 11/4 | Lab: OpenGL hull3d startup. Hull3d naive algorithm.  | | | 
 | 11/6 |  Hull3d: gift wrapping algorithm.| | | 
 | 11/11 | Hull3d: incremental algorithm and divide-and-conquer.  | | | 
-| 11/13 | Polygon triangulation. Properties and triangulation by ear clipping.  | [triangulation.pdf](Lectures/slides-triangulation1.pdf) | P6-visgraph| 
+| 11/13 | Polygon triangulation. Properties and triangulation by ear clipping.  | [triangulation.pdf](Lectures/slides-triangulation.pdf) | P6-visgraph| 
 | 11/18 | class cancelled.  | | | 
 | 11/20 | Path planning with visibility graph.  | | | 
 | 11/25 | THANKSGIVING BREAK! | | | 
