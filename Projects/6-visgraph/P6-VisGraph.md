@@ -21,7 +21,7 @@ In this project you will implement geometric motion planning for a point robot
 moving among polygonal obstacles in 2d  using the visibility
 graph (VG) approach.
 
-![](jason1.png) ![](jason2.png) ![](jason3.png)
+![](jason1.png)![](jason2.png)![](jason3.png)
 
 
 ### Overview
@@ -34,13 +34,13 @@ most situations we are happy to compute just a path, not necessarily
 the optimal/shortest, but in some special situations we are able to compute
 an optimal (shortest) path.
 
-In this first project we will consider a simple instance of the path
-planning problem and make some simplifying assumptions which will
-allow us to do optimal planning:
+In this project we'll make some simplifying assumptions which will allow us to do optimal planning:
 
+ - Physical space is 2D: The environment is 2D. 
 
- - 2D: We'll assume that the environment consists of a set of 2D
-   polygons that represent the obstacles. Furthermore, we assume that
+ - Point robot: the robot is assume to be a point (not realistic, but a good place to start).
+  
+ - Obstacles: The obstacles consists of a set of 2D  polygons. Furthermore, we assume that
    the robot is moving in a large bounding box B that contains all
    polygons.
 
@@ -52,24 +52,21 @@ allow us to do optimal planning:
   rely on sensors to learn the environment, instead the environment is
   given.
 
-- Point robot: the robot is assume to be a point (yes, that's not very
-  realistic, but it's a good place to start).
-
 
 The general idea of motion planning is to construct a representation
 of the free space (the space free of obstacles where 
-robot can move).  The representation is called a roadmap and is
-essentially a graph representing the free space. Ideally we want to build a
-roadmap so that:
+robot can move).  The representation is refred to generically as a _roadmap_ and is
+essentially a graph representing (movement through) the free space. Ideally we want to build a
+graph/roadmap so that:
 
-1. Any path in the road map corresponds to a collision-free path in the free space.
-2. Any path in the free-space corresponds to a path in the road map.
+1. Any path in the roadmap corresponds to a collision-free path in the free space.
+2. Any path in the free-space corresponds to a path in the roadmap.
+
+Essentially this means that if a path exists in reality, the graph will have it, and if the graph has a path, it exists in reality.  Put differently, no false positive (graph finds a path, but path does not exist in reality), or false negatives (graph says no path exist, but path exists in reality). 
 
 If we are able to compute a road map of free space with these
 properties, then moving  from a location s to a location t is corresponds to finding a path in the road map
-from s to t. We know that any path in the road map is colision-free
-by (1), and we know that if a path in the road map does not exist,
-then no path exists by (2). Essentially we have reduced the motion
+from s to t.  Essentially we have reduced the motion
 planning problem to a path problem in a graph.
 
 There are several types of roadpams that have been used, depending on
@@ -81,7 +78,7 @@ obstacles, and its edges (u,v) are all the pair of vertices that can
 "see" each other, that is, segment uv does not intersect the interior
 of any obstacle. Some screenshots above and below.
 
-![](vg10.png) ![](vg11.png) ![](vg12.png) ![](vg13.png) 
+![](vg10.png) ![](vg11.png) ![](vg12.png) ![](vg13.png) ![](vg4.png)
 
 Shortest paths in 2D have the very nice and convenient property that
 they are straight lines, and they have to go through the vertices of
@@ -99,17 +96,19 @@ obstacles.  Allow the user to reset the scene and and enter polygons
 using the mouse (in a manner similar to previous projects).  
 
 
-2. Once the scene is done, compute and render the visibility graph.
+2. Once the scene is done, compute and render the visibility graph. Implement the straightforward algorithm that considers all possible pairs of vertices (u,v) and adds an edge to the visibility graph if segment uv does not intersect properly any edge of any obstacle. Note that the edges of the polygons must be included in the visibility graph. Additionally, if u and v are on the same polygon,  you need to check whether segment uv  is inside the polygon that contains u and v, and if so, not include it in the visibility graph.
+
+Don't forget to add a vertex for the start position, one for the end, and add edges  from start and end to all visible vertices of the polygons. 
 
 
-3. Allow the user to click on the start and end position of the
+4. Allow the user to click on the start and end position of the
 "robot" in the scene. Then, run Dijkstra's algorithm on the VG and
 render the resulting path (for e.g. in a different color and different
 line width). Let the user enter different start and end positions and re-compute the path. 
 
 
 All the geometric primitives that you'll need for this project, you 
-already have them.  So that part should feel easy. The new part
+already have them.  So that part should work smoothly and quickly. The new part
 is implementing Dijsktra's algorithm. In csci2200 we discussed the
 pseudocode for Dijkstra. In this project you have an opportunity to
 work through  the details.
@@ -117,10 +116,19 @@ work through  the details.
 
 ### Dijkstra's algorithm 
 
-In theory we always assume that the graph is given  in an
-adjacency list form.  Here you compute all the edges, and you will need to  create an adjacency list for the VG graph.
+When we describe Dijkstra's algorithm  we  assume that the graph is given  in an
+adjacency list form, that is, every vertex has a list of all the vertices that it has edges to. In other words, a vector of vectors.   You want to think about this as you compute the VG. One way is to compute the VG directly into its adjacency list representation, and the other possibility is that when you compute the VG you create an array of edges, and after that you transform this into adjacency lists. 
 
-Once you have an adjacency list, you can pretty much use Dijkstra's algorithm straight out of a textbook.
+Once you have an adjacency list for the VG,  you can pretty much use Dijkstra's algorithm straight out of a textbook.
+
+Dijkstra's algorithm is a greedy algorithm to find the shortest paths from an arbitrary vertex (refered to as the _source_) to all other vertices in the graph. In our case we want the shortest path from _start_ to _end_, so we run Dijkstra from vertex _start_ until we reach vertex _end_, at which point we stop. 
+
+Additional structures: for each vertex _x_, we keep track of: 
+	- d[x] : this is the length o fthe current shortest path from source to x
+ 	- p[x] : this is the predecessor of x on teh shortest path from source to x
+	- status[x] : unsettled or open (their shortest path has not been found yet) and settled (their shortest path from source has been found, and d[x] represents the cost of the shortest path). 
+ 
+At each iteration,  we choose  an unsetteld node u of minimum distance from source s. This node becomes __settled__ and d[u] is the  length of the shortest path from s to u. All we have to do now is to update the distance to any unsettled node reachable by an edge from u. 
 
 
 ## Extra features
