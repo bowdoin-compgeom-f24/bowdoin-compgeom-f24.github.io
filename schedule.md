@@ -27,9 +27,9 @@ nav_order: 2
 | 10/16 |  Range trees, continued. Lab: Using the mouse in OpenGL | |  | 
 | 10/21 |  Segment-segment intersection. Point-in-polygon tests and ray crossings. | |  | 
 | 10/23 | Art gallery problems and Fisk sufficiency proofs. Lab: Animations in OpenGL | [artgallery.pdf](Lectures/slides-artgallery.pdf)| | 
-| 10/28 | Art gallery problems - the proofs. Segment intersection with Bentley-Ottman sweep.  |[bentott.pdf](Lectures/slides-bentleyottman.pdf) | | 
+| 10/28 | Art gallery problems - the proofs. Segment intersection with Bentley-Ottman sweep.  |[bentley-ottman.pdf](Lectures/slides-bentleyottman.pdf) | | 
 | 10/30 | Computing convex hulls in 3d. | | P5-hull3d| 
-| 11/4 | Lab: OpenGL hull3d startup. Hull3d naive algorithm.  | | | 
+| 11/4 | Lab: OpenGL hull3d startup. Hull3d naive algorithm.  | [bentley-ottman.pdf](Lectures/slides-hull3d.pdf) | | 
 | 11/6 |  Hull3d: gift wrapping algorithm.| | | 
 | 11/11 | Hull3d: incremental algorithm and divide-and-conquer.  | | | 
 | 11/13 | Polygon triangulation. Properties and triangulation by ear clipping.  | [triangulation.pdf](Lectures/slides-triangulation.pdf) | | 
