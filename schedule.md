@@ -34,19 +34,17 @@ nav_order: 2
 | 11/11 | Hull3d: incremental algorithm and divide-and-conquer.  | | | 
 | 11/13 | Polygon triangulation. Properties and triangulation by ear clipping.  | [triangulation.pdf](Lectures/slides-triangulation.pdf) | | 
 | 11/18 | class cancelled.  | | P6-visgraph| 
-| 11/20 | Path planning with visibility graph.  | | | 
+| 11/20 | Combinatorial path planning. Point robot among obstacles in 2D: Path planning  with the visibility graph.  | [planning1.pdf](Lectures/slides-pathplanning1.pdf) | | 
 | 11/25 | THANKSGIVING BREAK! | | | 
 | 11/27 | THANKSGIVING BREAK! | | | 
-| 12/2 | Path planning.  | | P7-planning | 
-| 12/4 | Path planning.  | | | 
-| 12/9 | Path planning.  | | | 
+| 12/2 | Combinatorial path planning. Polygonal robot moving among obstacles in 2D. Configuration space and extended obstacles.    | | P7-planning | 
+| 12/4 | Heuristical path planning. A*, oadmaps and the RRT.  | | | 
+| 12/9 | Project. | | | 
 | 12/11| Project.  | | | 
 
-|12/18 | final exam slot & project | | | 
+|12/18 | final exam slot & project demo | | | 
 
 
-Next: 
-- polygon triangulation 
 
 ***
 
