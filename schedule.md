@@ -35,10 +35,10 @@ nav_order: 2
 | 11/13 | Polygon triangulation. Properties and triangulation by ear clipping.  | [triangulation.pdf](Lectures/slides-triangulation.pdf) | | 
 | 11/18 | class cancelled.  | | P6-visgraph| 
 | 11/20 | Combinatorial path planning. Point robot among obstacles in 2D: Path planning  with the visibility graph.  | [planning1.pdf](Lectures/slides-pathplanning1.pdf) | | 
-| 11/25 | THANKSGIVING BREAK! | | | 
-| 11/27 | THANKSGIVING BREAK! | | | 
+| 11/25 | _THANKSGIVING BREAK!_ | | | 
+| 11/27 | _THANKSGIVING BREAK!_ | | | 
 | 12/2 | Combinatorial path planning. Polygonal robot moving among obstacles in 2D. Configuration space and extended obstacles.    | | P7-planning | 
-| 12/4 | Heuristical path planning. A*, oadmaps and the RRT.  | | | 
+| 12/4 | Heuristical path planning. A*, roadmaps and the RRT.  | | | 
 | 12/9 | Project. | | | 
 | 12/11| Project.  | | | 
 
