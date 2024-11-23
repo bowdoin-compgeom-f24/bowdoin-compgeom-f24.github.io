@@ -91,14 +91,16 @@ Dijkstra's algorithm.
 ### This project
 
 
-1. When you start your code, have a pre-set scene with polygonal
+1. When you start your code, have a simple pre-set scene with a couple of simple polygonal
 obstacles.  Allow the user to reset the scene and and enter polygons
 using the mouse (in a manner similar to previous projects).  
 
 
-2. Once the scene is done, compute and render the visibility graph. Implement the straightforward algorithm that considers all possible pairs of vertices (u,v) and adds an edge to the visibility graph if segment uv does not intersect properly any edge of any obstacle. Note that the edges of the polygons must be included in the visibility graph. Additionally, if u and v are on the same polygon,  you need to check whether segment uv  is inside the polygon that contains u and v, and if so, not include it in the visibility graph.
+2. Once the scene is done, compute and render the visibility graph. Implement the straightforward algorithm that considers all possible pairs of vertices (u,v) and adds an edge to the visibility graph if segment uv does not intersect properly any edge of any obstacle.  Additionally, if u and v are on the same polygon,  you need to check whether segment uv  is inside the polygon that contains u and v, and if so, not include it in the visibility graph.
 
-Don't forget to add a vertex for the start position, one for the end, and add edges  from start and end to all visible vertices of the polygons. 
+- Note that the edges of the polygons must be included in the visibility graph.
+  
+- Don't forget to add a vertex for the start/end positions, and edges to all visible vertices of the polygons. 
 
 
 4. Allow the user to click on the start and end position of the
@@ -116,19 +118,25 @@ work through  the details.
 
 ### Dijkstra's algorithm 
 
-When we describe Dijkstra's algorithm  we  assume that the graph is given  in an
+__Adjacency list:__ When we work with graphs  we  assume that the graph is given  in an
 adjacency list form, that is, every vertex has a list of all the vertices that it has edges to. In other words, a vector of vectors.   You want to think about this as you compute the VG. One way is to compute the VG directly into its adjacency list representation, and the other possibility is that when you compute the VG you create an array of edges, and after that you transform this into adjacency lists. 
 
-Once you have an adjacency list for the VG,  you can pretty much use Dijkstra's algorithm straight out of a textbook.
+Once you have an adjacency list for the VG,  you can use Dijkstra's algorithm straight out of a textbook. We describe it below. 
 
-Dijkstra's algorithm is a greedy algorithm to find the shortest paths from an arbitrary vertex (refered to as the _source_) to all other vertices in the graph. In our case we want the shortest path from _start_ to _end_, so we run Dijkstra from vertex _start_ until we reach vertex _end_, at which point we stop. 
+__Dijkstra's algorithm__ is a greedy algorithm to find the shortest paths from an arbitrary vertex (refered to as the _source_) to all other vertices in the graph. In our case we want the shortest path from _start_ to _end_, so we run Dijkstra from vertex _start_ until we reach vertex _end_, at which point we stop.  
 
-Additional structures: for each vertex _x_, we keep track of: 
-	- d[x] : this is the length o fthe current shortest path from source to x
- 	- p[x] : this is the predecessor of x on teh shortest path from source to x
-	- status[x] : unsettled or open (their shortest path has not been found yet) and settled (their shortest path from source has been found, and d[x] represents the cost of the shortest path). 
- 
-At each iteration,  we choose  an unsetteld node u of minimum distance from source s. This node becomes __settled__ and d[u] is the  length of the shortest path from s to u. All we have to do now is to update the distance to any unsettled node reachable by an edge from u. 
+Data structures needed: for each vertex _x_, we keep track of: 
+
+- d[x] : this will eventually be the length of the shortest path from source to x
+- p[x] : this is the predecessor of x on the shortest path from source to x
+- done[x] : true if its shortest path has  been found
+
+We'll also need a priority queue to store points and with their distance as priority: (x, d[x]). 
+
+At each iteration,  we choose a vertex u which is not done and has minimum distance from source s. This node becomes __done__ and d[u] is the  length of the shortest path from s to u. All we have to do now is to update the distance to its neighbors which are not done. 
+
+![](dijkstra1.png) ![](dijkstra2.png)
+
 
 
 ## Extra features
