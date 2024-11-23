@@ -21,7 +21,9 @@ In this project you will implement geometric motion planning for a point robot
 moving among polygonal obstacles in 2d  using the visibility
 graph (VG) approach.
 
-![](jason1.png)![](jason2.png)![](jason3.png)
+![](jason1.png)
+![](jason2.png)
+![](jason3.png)
 
 
 ### Overview
@@ -92,7 +94,7 @@ Dijkstra's algorithm.
 
 
 1. When you start your code, have a simple pre-set scene with a couple of simple polygonal
-obstacles.  Allow the user to reset the scene and and enter polygons
+obstacles (e.g. rectangles).  Allow the user to reset the scene and and enter polygons
 using the mouse (in a manner similar to previous projects).  
 
 
@@ -100,7 +102,7 @@ using the mouse (in a manner similar to previous projects).
 
 - Note that the edges of the polygons must be included in the visibility graph.
   
-- Don't forget to add a vertex for the start/end positions, and edges to all visible vertices of the polygons. 
+- Don't forget to add a vertex for the start/end positions and edges from start/end to all visible vertices of the polygons. 
 
 
 4. Allow the user to click on the start and end position of the
