@@ -15,7 +15,7 @@ nav_order: 11
 * Group policy: Partner-optional 
 * Collaboration policy: Level 1
 
-In this project you will write code to compute the convex hull of a set of points in 3D, using either gift wrapping or the incremental algorithm, both of which run in quadratic time.  
+In this project you will write code to compute the convex hull of a set of points in 3D, using either gift wrapping or the incremental algorithm, both of which run in quadratic time. To showcase the hull you will animate drawing the hull one face at a time, while the whole hull is rotating. 
 
 ![](hull3d.png)
 
@@ -151,7 +151,8 @@ void giftwrapping_hull(vector<point3d>& points, vector<triangle3d>& hull) {
 ### Deliverables/What to turn in
 
 You will receive the assignment on GitHub. Your github repository shoud contain:
-- your code
+- your code (computing hull3d + animation one-face-at-a-time)
+
 - The README file is the landing page for the repository and should contain: (1) a one-sentence description of what the code is doing. and (2) instrutions on how to run it. Totally fine to keep it minimal, but anyone shoud be able to run your code after looking at your README.
 - A brief report showcasing your project, containing:
 	- (1) images of your hulls. There isn’t a required number of images, include what you consider a representative sample
