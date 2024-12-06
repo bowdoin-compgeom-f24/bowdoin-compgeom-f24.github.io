@@ -79,8 +79,9 @@ Enjoy!
 
 ### Examples from previous semesters
 
-![](demo-annadanielle.mov)
+<a href="https://github.com/bowdoin-compgeom-f24/bowdoin-compgeom-f24.github.io/edit/main/Projects/7-planning/demo-annadanielle.mov">demo1</a> 
 
-![](demo-kevinwill-rrt1.mov)
+<a href="https://github.com/bowdoin-compgeom-f24/bowdoin-compgeom-f24.github.io/edit/main/Projects/7-planning/demo-kevinwill-rrt1.mov">demo2</a>
 
-![](demo-kevinwill-rrt2.mov)
+<a href="https://github.com/bowdoin-compgeom-f24/bowdoin-compgeom-f24.github.io/edit/main/Projects/7-planning/demo-kevinwill-rrt2.mov">demo3</a>
+
