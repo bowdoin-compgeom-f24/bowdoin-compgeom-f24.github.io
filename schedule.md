@@ -37,8 +37,8 @@ nav_order: 2
 | 11/20 | Combinatorial path planning. Point robot among obstacles in 2D: Path planning  with the visibility graph.  | [planning1.pdf](Lectures/slides-pathplanning1.pdf) | | 
 | 11/25 | _THANKSGIVING BREAK!_ | | | 
 | 11/27 | _THANKSGIVING BREAK!_ | | | 
-| 12/2 | Combinatorial path planning. Polygonal robot moving among obstacles in 2D. Configuration space and extended obstacles.    | | P7-planning | 
-| 12/4 | Heuristical path planning. A*, roadmaps and the RRT.  | | | 
+| 12/2 | Combinatorial path planning. Polygonal robot moving among obstacles in 2D. Configuration space and extended obstacles.    | [planning2.pdf](Lectures/slides-motionplanning2.pdf)| P7-planning | 
+| 12/4 | Heuristical path planning. A*, roadmaps and the RRT.  | [planning3.pdf](Lectures/slides-motionplanning3.pdf)| | 
 | 12/9 | Project. | | | 
 | 12/11| Project.  | | | 
 
