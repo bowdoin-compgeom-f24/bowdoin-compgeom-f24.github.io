@@ -79,4 +79,8 @@ Enjoy!
 
 ### Examples from previous semesters
 
-![](jason1.png)
+![](demo-annadanielle.mov)
+
+![](demo-kevinwill-rrt1.mov)
+
+![](demo-kevinwill-rrt2.mov)
