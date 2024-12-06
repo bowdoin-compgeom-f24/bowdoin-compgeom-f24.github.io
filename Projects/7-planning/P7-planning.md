@@ -76,3 +76,7 @@ theoretical mindset and think before you start coding, you will be a
 lot more effective.
 
 Enjoy! 
+
+### Examples from previous semesters
+
+![](jason1.png)
