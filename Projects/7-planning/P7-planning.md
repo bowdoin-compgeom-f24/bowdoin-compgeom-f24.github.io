@@ -81,18 +81,15 @@ Enjoy!
 
 * 3dof: 2D + rotation:
   
-<a href="https://tildesites.bowdoin.edu/~ltoma/teaching/cs3250-CompGeom/demos/planning/demo-annadanielle.mov">A* demo1</a>
-
-<a href="https://tildesites.bowdoin.edu/~ltoma/teaching/cs3250-CompGeom/demos/planning/demo-caspian.mov">A* demo2</a> 
-
-<a href="https://tildesites.bowdoin.edu/~ltoma/teaching/cs3250-CompGeom/demos/planning/demo-kevinwill_rrt1.mov">RRT demo1</a> 
-
-<a href="https://tildesites.bowdoin.edu/~ltoma/teaching/cs3250-CompGeom/demos/planning/demo-kevinwill_rrt2.mov">RRT demo2</a>
+   <a href="https://tildesites.bowdoin.edu/~ltoma/teaching/cs3250-CompGeom/demos/planning/demo-annadanielle.mov">A* demo1</a>
+| <a href="https://tildesites.bowdoin.edu/~ltoma/teaching/cs3250-CompGeom/demos/planning/demo-caspian.mov">A* demo2</a> 
+| <a href="https://tildesites.bowdoin.edu/~ltoma/teaching/cs3250-CompGeom/demos/planning/demo-kevinwill_rrt1.mov">RRT demo1</a> 
+| <a href="https://tildesites.bowdoin.edu/~ltoma/teaching/cs3250-CompGeom/demos/planning/demo-kevinwill_rrt2.mov">RRT demo2</a>
 
 * 4dof: robot in 2d with one joint and 4dof (2 translation + 2 rotation)
 
-<a href="https://tildesites.bowdoin.edu/~ltoma/teaching/cs3250-CompGeom/demos/planning/demo-rrt-joints-danielbrian.mov">RRT demo1</a> 
+   <a href="https://tildesites.bowdoin.edu/~ltoma/teaching/cs3250-CompGeom/demos/planning/demo-rrt-joints-danielbrian.mov">RRT demo1</a> 
 
 * 7-dof: robot in 2d with four joints (2 translation + 5 rotation)
 
-<a href="https://tildesites.bowdoin.edu/~ltoma/teaching/cs3250-CompGeom/demos/planning/demo-rrt-fold-danielbrian.mov">RRT demo1</a> 
+   <a href="https://tildesites.bowdoin.edu/~ltoma/teaching/cs3250-CompGeom/demos/planning/demo-rrt-fold-danielbrian.mov">RRT demo1</a> 
