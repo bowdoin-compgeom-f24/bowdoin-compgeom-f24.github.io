@@ -79,14 +79,14 @@ Enjoy!
 
 ### Examples from previous semesters
 
-* 3dof: 2D + rotation:
+* 3dof: robot in 2D with rotation:
   
    <a href="https://tildesites.bowdoin.edu/~ltoma/teaching/cs3250-CompGeom/demos/planning/demo-annadanielle.mov">A* demo1</a>
 | <a href="https://tildesites.bowdoin.edu/~ltoma/teaching/cs3250-CompGeom/demos/planning/demo-caspian.mov">A* demo2</a> 
 | <a href="https://tildesites.bowdoin.edu/~ltoma/teaching/cs3250-CompGeom/demos/planning/demo-kevinwill-rrt1.mov">RRT demo1</a> 
 | <a href="https://tildesites.bowdoin.edu/~ltoma/teaching/cs3250-CompGeom/demos/planning/demo-kevinwill-rrt2.mov">RRT demo2</a>
 
-* 4dof: robot in 2d with two joints and 5dof (2 translation + 3 rotation)
+* 5dof: robot in 2d with two joints  (2 translation + 3 rotation)
 
    <a href="https://tildesites.bowdoin.edu/~ltoma/teaching/cs3250-CompGeom/demos/planning/demo-rrt-joints-danielbrian.mov">RRT with 2 joints</a> 
 
