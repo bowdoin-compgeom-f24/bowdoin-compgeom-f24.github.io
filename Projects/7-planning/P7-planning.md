@@ -88,8 +88,8 @@ Enjoy!
 
 * 4dof: robot in 2d with two joints and 5dof (2 translation + 3 rotation)
 
-   <a href="https://tildesites.bowdoin.edu/~ltoma/teaching/cs3250-CompGeom/demos/planning/demo-rrt-joints-danielbrian.mov">RRT demo </a> 
+   <a href="https://tildesites.bowdoin.edu/~ltoma/teaching/cs3250-CompGeom/demos/planning/demo-rrt-joints-danielbrian.mov">RRT with 2 joints</a> 
 
 * 7-dof: robot in 2d with four joints (2 translation + 5 rotation)
 
-   <a href="https://tildesites.bowdoin.edu/~ltoma/teaching/cs3250-CompGeom/demos/planning/demo-rrt-fold-danielbrian.mov">RRT demo1</a> 
+   <a href="https://tildesites.bowdoin.edu/~ltoma/teaching/cs3250-CompGeom/demos/planning/demo-rrt-fold-danielbrian.mov">RRT with 4 joints </a> 
