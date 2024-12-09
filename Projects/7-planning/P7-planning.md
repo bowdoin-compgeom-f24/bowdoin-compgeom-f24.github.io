@@ -79,7 +79,7 @@ Enjoy!
 
 ### Examples from previous semesters
 
-<a href="https://github.com/bowdoin-compgeom-f24/bowdoin-compgeom-f24.github.io/edit/main/Projects/7-planning/demo-annadanielle.mov">A* demo1</a>  | <a href="https://github.com/bowdoin-compgeom-f24/bowdoin-compgeom-f24.github.io/edit/main/Projects/7-planning/demo-caspian.mov">A* demo2</a> 
+<a href="https://tildesites.bowdoin.edu/~ltoma/teaching/cs3250-CompGeom/demos/planning/demo-annadanielle.mov">A* demo1</a>  | <a href="https://tildesites.bowdoin.edu/~ltoma/teaching/cs3250-CompGeom/demos/planning/demo-caspian.mov">A* demo2</a> 
 
-<a href="https://tildesites.bowdoin.edu/~ltoma/teaching/cs3250-CompGeom/fall21/Assignments/A7-motionPlanning/kevinwill_rrt_demo1.mov">RRT demo1</a> | <a href="https://tildesites.bowdoin.edu/~ltoma/teaching/cs3250-CompGeom/fall21/Assignments/A7-motionPlanning/kevinwill_rrt_demo2.mov">RRT demo2</a>
+<a href="https://tildesites.bowdoin.edu/~ltoma/teaching/cs3250-CompGeom/demos/planning/kevinwill_rrt_demo1.mov">RRT demo1</a> | <a href="https://tildesites.bowdoin.edu/~ltoma/teaching/cs3250-CompGeom/demos/planning/kevinwill_rrt_demo2.mov">RRT demo2</a>
 
