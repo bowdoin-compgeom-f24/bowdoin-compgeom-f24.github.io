@@ -1,6 +1,6 @@
 ---
 layout: default 
-title: Class pics
+title: CLASS PICS!
 nav_order: 15
 ---
 
